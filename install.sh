@@ -1,5 +1,3 @@
-#/bin/bash
+#!/bin/bash
 
-sudo su
-apt update
-apt install -y postgresql
+sudo su && apt update && apt install -y postgresql
